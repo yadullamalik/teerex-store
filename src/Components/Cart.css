@@ -1,0 +1,32 @@
+.cart {
+  height: 100vh;
+  display: flex;
+  gap: 100px;
+}
+.cart-div {
+  width: 90%;
+}
+.cart-main-div {
+  display: flex;
+  justify-content: space-evenly;
+  width: 90%;
+  background-color: #cbd6c0;
+  margin: 15px auto;
+  padding: 15px;
+  padding-top: 25px;
+  border-radius: 10px;
+}
+.btns-div {
+  margin-top: 15px;
+}
+.filters > span {
+  padding-bottom: 20px;
+}
+.summary {
+  width: 25%;
+}
+.remove-btn {
+  padding: 5px 10px;
+  height: 40px;
+  margin-top: 10px;
+}

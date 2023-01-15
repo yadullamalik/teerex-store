@@ -1,0 +1,37 @@
+.card {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: 150px;
+  height: 300px;
+  padding: 10px;
+  background-color: #cbd6c0;
+  border-radius: 7px;
+}
+.color {
+  padding: 5px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  margin-top: 17px;
+}
+.flex-div {
+  display: flex;
+  gap: 40px;
+  margin-top: -20px;
+}
+button {
+  background-color: black;
+  color: white;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 7px;
+  margin: 3px;
+}
+.msg {
+  position: fixed;
+  z-index: 1;
+  top: 15px;
+  padding: 15px;
+  left: 45%;
+  background-color: #f3d57c;
+  border-radius: 10px;
+}

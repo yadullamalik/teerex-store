@@ -1,0 +1,36 @@
+.flex {
+  display: flex;
+  gap: 50px;
+}
+.cards-div {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  /* margin-left: 100px; */
+  width: 120%;
+  /* margin-right: 70px; */
+}
+.filters-div {
+  background-color: #cbd6c0;
+  width: 25%;
+  margin-left: 2%;
+  padding-left: 2%;
+  height: 550px;
+}
+
+@media screen and (max-width: 450px) {
+  .cards-div {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .filters-div {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 451px) and (max-width: 800px) {
+  .cards-div {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .filters-div {
+    width: 35%;
+  }
+}
